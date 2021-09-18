@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GoBikes</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: lightgrey;
+        }
+        /* Contents Table */
+        #table1 
+        {
+            width:100%;
+            height: 3cm;
+            text-align: center;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        td a
+        {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #table1 td a:hover{
+            background-color: rgb(92, 228, 74);
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-decoration: underline;
+        }
+
+        .booking {
+            font-size: x-large;
+            font-family: cursive;
+            border: 7px solid black;
+            margin: 71px;
+            padding: 50px;
+        }
+
+        .booking button {
+            margin-left: 100px;
+            color: black;
+            background-color: #1cdd57;
+            font-size: 35px;
+            border: 2px solid #6b7f58;
+            border-radius: 23px;
+            padding: 10px 50px 10px 50px;
+            cursor: pointer;
+        }
+
+        .booking button:hover {
+            color: #fefcfc;
+            background-color: #83a28d;
+        }
+        .booking input{
+            font-size: medium;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #formtext input{
+            width: 510px;
+            font-size: medium;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .booking select{
+            width: 200px;
+            font-size: medium;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #heading1{
+            font-size: 55px;
+            font-weight: bolder;
+            align-content: center;
+            color: black;
+        }
+        #logo{
+            vertical-align: top;
+            
+        }
+        /* footer table */
+        #table3
+        {
+            color: white;
+            width:100%;
+            height: 5cm;
+            background-color: black;
+            text-align: center;
+            font-size: x-large;
+        }
+        
+    </style>
+</head>
+
+<body >
+    <!-- contents table -->
+    <!-- contents table -->
+    <table id="table1" >
+        <tr>
+            <td><a href="index.html" style="color: white;" target="">HOME</a></td>
+            <td><a>ABOUT US</a></td>
+            <td><a href="bookings.html" style="color: white;" target="">BOOKINGS</a></td>
+            <td><a href="rentals.html" style="color: white;" target="">RENTALS</a></td>
+            <td><a href="contact.html" style="color: white;" target="">CONTACT US</a></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <div class="booking">
+                    <h1 id="heading1">Book your Cab here</h1><hr>
+                    <form>
+                        <div id="formtext"> Enter Pickup Address<br>
+                        <input type="text" name="pickup" placeholder="Enter Pickup Address" required><br><br>
+
+                        Enter Destination Address<br>
+                        <input type="text" name="destination" placeholder="Enter destination Address" required><br><br></div>
+
+                        Date of Travel <input type="date" name="date" required>
+
+                        Time of Travel <input type="time" name="Time" required>
+
+                        Gender <input type="radio" name="gender" required>Male
+                        <input type="radio" name="gender" required>Female<br><br>
+
+                        Select Bike
+                        <select name="Bike" required>
+                            <option value="hero">Hero</option>
+                            <option value="honda">Honda</option>
+                            <option value="bajaj">Bajaj</option>
+                            <option value="re">Royal Enfield</option>
+                            <option value="ktm">ktm</option>
+                            <option value="yamaha">yamaha</option>
+                        </select><br><br>
+
+                         Mode of payment<input type="radio" name="payment" required>Cash
+                        <input type="radio" name="payment" required>UPI
+                        <input type="radio" name="payment" required>wallet<br><br>
+                        <button>SUBMIT</button>
+                    </form>
+                </div>
+            </td>
+            <td id="logo">
+                <img src="img/logo-color.png" width="75%">
+            </td>
+        </tr>
+    </table>
+    <!-- footer table -->
+    <table id="table3">
+        <tr>
+            <td width="30%">
+                <img src="img/logo-color.png" width="70%" height="auto">
+            </td>
+            <td style="text-align: center;" width="20%">
+                <a href="index.html" style="color: white;">Home</a><br><br>
+                <a>ABOUT US</a><br><br>
+                <a href="bookings.html" style="color: white;" target="">BOOKINGS</a><br><br>
+                
+            </td>
+            <td width="20%">
+                <a href="rentals.html" style="color: white;" target="">RENTALS</a><br><br>
+                <a href="contact.html" style="color: white;">Contact Us</a>
+            </td>
+            <td width="30%">
+                Connect with us<br>
+                <a href="https://www.facebook.com" target="blank"><img src="img/fb.png" width="7%" height="auto"></a>
+
+                <a href="https://instagram.com" target="blank"><img src="img/insta.png" width="7%" height="auto"></a>
+
+                <a href="https://www.twitter.com" target="blank"><img src="img/twitter.png" width="7%" height="auto"></a>
+
+                <a href="https://www.linkedin.com" target="blank"><img src="img/linkedin.png" width="7%" height="auto"></a>
+                
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

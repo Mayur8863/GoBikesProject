@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Utlities */
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contents Table */
+#table1 {
+    width: 100%;
+    height: 3cm;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+td a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+#table1 td a:hover{
+    background-color: rgb(92, 228, 74);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+/* contact page */
+.contactpage {
+    display: flex;
+    /* border: 2px solid blueviolet; */
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 600px;
+    /* position: absolute;
+    top: 100px;
+    left: 100px; */
+    margin: 70px 30px 10px 70px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 15px;
+}
+
+.required {
+    color: rgb(26, 221, 195);
+}
+
+.form button {
+    margin: 25px 116px;
+    color: black;
+    background-color: #1cdd57;
+    font-size: 25px;
+    border: 2px solid #6b7f58;
+    border-radius: 23px;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    color: #fefcfc;
+    background-color: #83a28d;
+}
+
+form input {
+    font-size: 15px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border: 2px solid #aca5a5;
+}
+
+/* right posrtion */
+.right {
+    display: grid;
+    /* border: 2px solid brown; */
+}
+
+.logo1 img {
+    /* height: 200px; */
+    width: 800px;
+    align-items: flex-end;
+    /* border: 2px solid green; */
+}
+
+.office-Address {
+    margin: 10px 100px;
+    /* border: 2px solid green; */
+    padding: 10px 0px;
+    width: 400px;
+}
+
+.office-Address p {
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.office-Address h3 {
+    font: bold;
+}
+/* footer table */
+#table3
+{
+    color: white;
+    width:100%;
+    height: 5cm;
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+}
